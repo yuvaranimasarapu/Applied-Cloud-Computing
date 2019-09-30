@@ -10,8 +10,8 @@ from keystoneauth1 import session
 
 flavor = "ssc.small" 
 private_net = "SNIC 2019/10-32 Internal IPv4 Network"
-floating_ip_pool_name = "Public External IPv4 network"
-floating_ip = "130.238.28.90"
+floating_ip_pool_name = None
+floating_ip = None
 image_name = "Ubuntu 18.04 LTS (Bionic Beaver) - latest"
 
 loader = loading.get_plugin_loader('password')
@@ -40,16 +40,16 @@ else:
 
 #print("Path at terminal when executing this file")
 #print(os.getcwd() + "\n")
-cfg_file_path =  os.getcwd()+'/home/ubuntu/Applied-Cloud-Computing/cloud-cfg.txt'
+cfg_file_path =  os.getcwd()+'/cloud-cfg.txt'
 if os.path.isfile(cfg_file_path):
     userdata = open(cfg_file_path)
 else:
     sys.exit("cloud-cfg.txt is not in current working directory")
 
-secgroups = ['default','yuvarani_seccg']
+secgroups = ['default','yuvarani_secg_acc']
 
 print "Creating instance ... "
-instance = nova.servers.create(name="yuvi_lab2", image=image, flavor=flavor, userdata=userdata, nics=nics,security_groups=secgroups,floating_ip=floating_ip,key_name="yuvaranim")
+instance = nova.servers.create(name="yuvi_lab2_auto", image=image, flavor=flavor, userdata=userdata, nics=nics,security_groups=secgroups,floating_ip=floating_ip,key_name="yuvaranim")
 inst_status = instance.status
 print "waiting for 10 seconds.. "
 time.sleep(10)
