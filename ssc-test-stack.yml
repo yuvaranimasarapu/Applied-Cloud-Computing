@@ -28,7 +28,7 @@ parameters:
     type: string
     label: Key name
     description: Name of key-pair to be used for compute instance
-    default: <—MY_KEY_NAME->
+    default: yuvarani
 
   public_network:
     type: string
@@ -100,7 +100,7 @@ resources:
       user_data: |
         #!/bin/sh
         echo "Hello, World!"
-        echo "<ADD-CLUSTER’s-PUBLIC-KEY>" >> /home/ubuntu/.ssh/authorized_keys
+        echo "<ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZaO5ZBt2wtCJDcWQQYguQcUJoIuttVuHjSvvy4IEIle2H8ez8TJhvv7sWoBkGKPr4E87PwM9tsDxsphaW/6KjApsEQFuxwdXVuZzmcJg8vH0gBkNlixwN1O8GKlXHkZHYffoiT9g8Rbor4/z8cJlyboqz4iNR8spKll45zD65zTPbvpY/lRvF4kux3niQBQ/RINskWgIViYtidjTFbz+S/tbbQ/m5MbXMUFsv4eGE1AFO5ISvxmM3ikneCrvD9gvJi67fleLSXOXx5JXjD+PTt50rt8bFkENtRVkgcz7GpTgEkFR52T0+6Vwk93Dx/mrcKgkwSmNk2iE8nvlAc1tr root@yuvi-a1>" >> /home/ubuntu/.ssh/authorized_keys
         apt-add-repository -y ppa:ansible/ansible
         apt-get update -y
         apt-get upgrade -y
@@ -120,7 +120,7 @@ resources:
       user_data: |
         #!/bin/sh
         echo "Hello, World!"
-        echo "<ADD-CLUSTER’s-PUBLIC-KEY>" >> /home/ubuntu/.ssh/authorized_keys
+        echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZaO5ZBt2wtCJDcWQQYguQcUJoIuttVuHjSvvy4IEIle2H8ez8TJhvv7sWoBkGKPr4E87PwM9tsDxsphaW/6KjApsEQFuxwdXVuZzmcJg8vH0gBkNlixwN1O8GKlXHkZHYffoiT9g8Rbor4/z8cJlyboqz4iNR8spKll45zD65zTPbvpY/lRvF4kux3niQBQ/RINskWgIViYtidjTFbz+S/tbbQ/m5MbXMUFsv4eGE1AFO5ISvxmM3ikneCrvD9gvJi67fleLSXOXx5JXjD+PTt50rt8bFkENtRVkgcz7GpTgEkFR52T0+6Vwk93Dx/mrcKgkwSmNk2iE8nvlAc1tr root@yuvi-a1" >> /home/ubuntu/.ssh/authorized_keys
         apt-get update -y
         apt-get upgrade -y
       user_data_format: RAW
