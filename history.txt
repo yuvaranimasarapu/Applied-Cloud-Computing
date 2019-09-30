@@ -1,0 +1,429 @@
+vm$ df
+df
+sudo bash
+cowsay
+install cowsay
+sudo install cowsay
+sudo apt install cowsay
+sudo apt update cowsay
+sudo wget https://github.com/TDB-UU/csaas.git
+ls
+cd csaas.git
+git csaas.git
+git clone https://github.com/TDB-UU/csaas.git
+ls
+cd csaas/cowsay
+screen python app.py
+ls
+python app.py
+app install python-minimal
+sudo apt install python-minimal
+python app.py
+cd ..
+ls
+rm csaas.git
+ls
+cd csaas/cowsay
+python app.py
+sudo apt install python3
+python app.py
+pip install Flask
+pip3 install Flask
+sudo pip3 install Flask
+python3 -V
+sudo apt install python3-venv
+python app.py
+mkdir my_flask_app
+cd my_flask_app
+python3 -m venv venv
+source venv/bin/activate
+pip3 install Flask
+python3 -m flask --version
+(venv) root@yuvi-a1:~/csaas/cowsay/my_flask_app# python3 -m flask --version
+Python 3.5.2
+Flask 1.1.1
+Werkzeug 0.15.6
+python app.py
+cd csaas/cowsay
+sudo bash
+cd ..
+python3 app.py
+cd my_flask_app/
+python3 app.py
+cp csaas/cowsay/app.py csaas/cowsay/my_flask_app
+cp /csaas/cowsay/app.py /csaas/cowsay/my_flask_app
+cp ./csaas/cowsay/app.py ./csaas/cowsay/my_flask_app
+cp -f ./csaas/cowsay/app.py ./csaas/cowsay/my_flask_app
+cp -f /csaas/cowsay/app.py /csaas/cowsay/my_flask_app
+cp -f app.py /csaas/cowsay/my_flask_app
+cd ..
+cp app.py csaas/cowsay/my_flask_app
+cp app.py /csaas/cowsay/my_flask_app
+cp app.py my_flask_app
+cd my_flask_app
+ls
+python3 app.py
+pip install flask
+pip3 install flask
+sudo pip3 install flask
+source bin/activate
+cd ..
+rm my_flask_app
+rmdir my_flask_app
+cd my_flask_app/
+rm app.py
+ls
+rm venv
+rmdir venv
+cd venv
+ls
+cd ..
+cd..
+cd .
+cd ..
+cp app.py venv
+cd my_flask_app/venv
+ls
+python3 app.py
+cd ..
+ls
+cd venv
+rm venv
+ls
+cd my_flask_app/
+ls
+source venv/bin/activate
+export FLASK_APP=app
+flask run
+flask run --host=0.0.0.0
+deactivate
+cd ..
+install python pip
+sudo apt install python
+sudo install python pip
+sudo install python3 pip
+sudo install pip
+screen python app.py
+screen python3 app.py
+python app.py
+python3 app.py
+pip install screen
+pip3 install screen
+sudo apt install pip3
+sudo apt install pip
+sudo apt install python
+sudo apt install python3
+sudo apt install pip3
+sudo apt install python-pip
+sudo apt install python-flask
+screen python app.py
+vi app.py
+python app.py
+screen python app.py
+sudo ufw allow 5000/tcp
+sudo ufw allow 5000
+lsof -i
+su -
+lsof -i
+su -
+sudo su -
+ls
+cd csaas/cowsay/
+ls
+screen python app.py
+neutron ext-list -c alias -c name
+cd ..
+sudo su -
+ls
+sudo su -
+ls
+cd csaas/
+cs
+ls
+cd cowsay/
+ls
+rm -r my_flask_app/
+ls
+cd..
+cd ..
+exitk
+exit
+sudo apt install bc
+time echo “scale=5000; a(1)*4” | bc -l
+sudo time echo “scale=5000; a(1)*4” | bc -l
+sudo time echo “scale=5000; a(1)*4” | bc -1
+time echo "scale=5000;a(1)*4" | bc -l
+apt install software-properties-common
+add-apt-repository cloud-archive:queens
+apt install software-properties-common
+add-apt-repository cloud-archive:pike
+apt update && apt dist-upgrade
+apt install python-openstackclient
+ls
+git clone https://github.com/yuvaranimasarapu/Applied-Cloud-Computing.git
+git pull
+ls
+cd Applied-Cloud-Computing/
+git pull
+ls
+vi SNIC\ 2019_10-13-openrc.sh 
+git add .
+git merge
+git push -m 'rc file updated with few commands'
+git commit -m 'rc file updated with few commands'
+git config --global user.email "yuvaranimasarapu@gmail.com"
+git config --global user.name "yuvaranimasarapu"
+git commit -m 'rc file updated with few commands'
+git push -u origin master
+vi SNIC\ 2019_10-13-openrc.sh 
+source SNIC 2019/10-13_openrc.sh
+source <SNIC 2019/10-13>_openrc.sh
+source SNIC 2019/10-13-openrc.sh
+sudo source SNIC 2019/10-13-openrc.sh
+source SNIC 2019/10-13-openrc.sh
+cd ..
+source SNIC 2019/10-13_openrc.sh
+cd Applied-Cloud-Computing/
+ls
+vi SNIC\ 2019_10-13-openrc.sh 
+mv 'SNIC\ 2019_10-13-openrc.sh' 'SNIC\2019_10-13-openrc.sh'
+mv SNIC\ 2019_10-13-openrc.sh SNIC\2019_10-13-openrc.sh
+ls
+git add .
+git commit -m 'renaming rc file to avoid linux name issues'
+git push -u origin master
+ls
+source SNIC2019_10-13-openrc.sh
+openstack server list
+openstack image list
+openstack -v
+openstack --version
+openstack image list
+sudo bash
+openstack image list
+ls
+cd Applied-Cloud-Computing/
+ls
+source SNIC2019_10-13-openrc.sh
+openstack server list
+openstack image list
+version
+openstack version
+openstack --help
+source SNIC2019_10-13-openrc.sh
+openstack --help
+vi SNIC2019_10-13-openrc.sh 
+cd contextualization
+ssc-instance-userdata.py
+sudo ssc-instance-userdata.py
+vi ssc-instance-userdata.py
+py ssc-instance-userdata.py
+sudo python ssc-instance-userdata.py
+vi ssc-instance-userdata.py
+git add .
+git commit -m 'cloudinit file'
+git push origin master
+git pull
+vi SNIC2019_10-13-openrc.sh 
+vi ssc-instance-userdata.py
+vi SNIC2019_10-13-openrc.sh 
+vi ssc-instance-userdata.py
+source SNIC2019_10-13-openrc.sh
+sudo python2 ssc-instance-userdata.py
+sudo python3 ssc-instance-userdata.py
+python -V
+sudo python2 ssc-instance-userdata.py
+euca-run-instances --key mykey --user-data
+apt install euca2ools
+euca-run-instances --key mykey --user-data
+ls /etc/cloud
+sudo vi /etc/cloud/cloud.cfg
+sudo cloud-init -f cloud-init-test init --local
+sudo cloud-init
+sudo cloud-init -f init --local
+sudo cloud-init -
+sudo cloud-init -f
+ls /etc/cloud
+sudo cloud-init -f cloud.config init --local
+sudo cloud-init -f cloud.cfg init --local
+sudo cloud-init -f /etc/cloud/cloud.cfg init --local
+ls /var/lib/cloud
+tree /var/lib/cloud/
+apt install tree
+tree /var/lib/cloud/
+sudo cloud-init -f /etc/cloud/cloud.cfg init
+vi ssc-instance-userdata.py
+ls
+vi SNIC2019_10-13-openrc.sh 
+vi ssc-instance-userdata.py
+sudo python ssc-instance-userdata.py
+vi ssc-instance-userdata.py
+rm ssc-instance-userdata.py 
+ls
+git add .
+git commit -m 'removed ssc instance userdata file'
+git push origin master
+git pull
+ls
+vi ssc-instance-userdata.py 
+cd ..
+ls
+cd Applied-Cloud-Computing/cloud-cfg.txt
+vi Applied-Cloud-Computing/cloud-cfg.txt/
+cd Applied-Cloud-Computing/
+ls
+vi cloud-cfg.txt 
+vi ssc-instance-userdata.py 
+sudo python ssc-instance-userdata.py 
+python ssc-instance-userdata.py 
+vi ssc-instance-userdata.py 
+python ssc-instance-userdata.py 
+vi ssc-instance-userdata.py 
+ls /etc/cloud
+vi /etc/cloud/cloud.cfg 
+vi ssc-instance-userdata.py 
+cloud-init query --list-keys
+cloud-init query v1.cloud_name
+cloud-init status
+cloud-init status --long
+ls
+sudo cloud-init -f cloud-cfg.txt init
+python ssc-instance-userdata.py 
+ls /usr/lib/python2.7/dist-packages/novaclient/v2/
+vi /usr/lib/python2.7/dist-packages/novaclient/v2/images.py
+python ssc-instance-userdata.py 
+git pull
+ls
+vi ssc-test-stack.yml 
+ssh-keygen -t rsa
+vi ssc-test-stack.yml 
+ls /root/.ssh/id_rsa
+cd ..
+ls
+ssh-keygen -t rsa
+ls
+cd Applied-Cloud-Computing/
+ls
+rm key_name
+ls
+vi key_name.pub
+vi ssc-test-stack.yml 
+openstack stack create stack_with_init_script -f ‘yaml’ -t ssc-test-stack.yml
+openstack STACK create stack_with_init_script -f ‘yaml’ -t ssc-test-stack.yml
+stack create stack_with_init_script -f ‘yaml’ -t ssc-test-stack.yml
+openstack create stack_with_init_script -f ‘yaml’ -t ssc-test-stack.yml
+openstack --help
+openstack stack create stack_with_init_script -f ‘yaml’ -t ssc-test-stack.yml
+ls
+openstack stack create stack_with_init_script -f yaml -t ssc-test-stack.yml
+openstack create stack_with_init_script -f yaml -t ssc-test-stack.yml
+nova show NAME
+nova show ubuntu
+nova show Ubuntu
+nova show s13321
+ls
+cloudinit status
+cloud-init status
+cloud-init query v1.cloud_name
+cloud-init --help
+sudo cloud-init cloud.cfg init
+ls
+sudo cloud-init cloud-cfg.txt init
+sudo cloud-init cloud-cfg.txt init --local
+sudo cloud-init -f cloud-cfg.txt init --local
+nova reboot SERVER
+nova reboot yuvi-a1
+nova reboot ubuntu
+hostname
+servername
+server
+sudo reboot
+cloud-init status
+ls
+cd Applied-Cloud-Computing/
+ls
+python ssc-instance-userdata.py 
+vi ssc-instance-userdata.py 
+git pull
+ls
+vi ssc-instance-userdata.py 
+readlink -f cloud-cfg.txt
+vi ssc-instance-userdata.py 
+python ssc-instance-userdata.py 
+source SNIC2019_10-13-openrc.sh 
+python ssc-instance-userdata.py 
+vi ssc-instance-userdata.py 
+vi cloud-cfg.txt 
+openstack image list
+openstack image show kankava_snapshot
+openstack image show markus
+openstack image list | grep 'markus'
+openstack image list
+openstack image list | grep 'Markus'
+openstack image show | grep 'Markus'
+ec2-run-instances
+apt install ec2-api-tools
+ec2-run-instances
+ec2-run-instances --help
+ec2-run-instances --user-data
+ls
+ec2-run-instances --user-data-file ssc-instance-userdata.py
+ec2-run-instances --user-data-file ssc-instance-userdata.py yuvi-a1
+ec2-run-instances --user-data-file ssc-instance-userdata.py ami-s13321
+ec2-run-instances --key key_name.pub --user-data-file ssc-instance-userdata.py ami-s13321
+ec2-run-instances --key key_name --user-data-file ssc-instance-userdata.py ami-s13321
+euca-run-instances --key key_name --user-data-file ssc-instance-userdata.py ami-s13321
+ls
+vi cloud-cfg.txt 
+vi ssc-instance-userdata.py 
+openstack flavor list
+vi ssc-instance-userdata.py 
+python ssc-instance-userdata.py 
+vi ssc-instance-userdata.py 
+cd /var/lib/
+ls
+cd /etc/cloud
+ls
+cd /var/lib/cloud
+ls
+cd instances
+ls
+cd ..
+cd instance
+ls
+vi user-data.txt
+vi user-data.txt.i
+vi cloud-config.txt 
+cd Applied-Cloud-Computing/
+ls
+vi ssc-instance-userdata.py 
+git pull
+cd Applied-Cloud-Computing/
+git pull
+vi ssc-instance-userdata.py 
+sudo cloud-init cloud-cfg.txt init
+sudo cloud-init -f cloud-cfg.txt init
+python ssc-instance-userdata.py 
+source SNIC2019_10-13-openrc.sh 
+sudo cloud-init -f cloud-cfg.txt init
+python ssc-instance-userdata.py 
+vi ssc-instance-userdata.py 
+python ssc-instance-userdata.py 
+vi ssc-instance-userdata.py 
+git add .
+git commit -m 'instance user data file updated'
+git push origin master
+git status
+exit
+sudo bash
+logout
+~/.bash_history
+history
+history -out /Applied-Cloud-Computing/history.txt
+history -anrw /Applied-Cloud-Computing/history.txt
+history -rw /Applied-Cloud-Computing/history.txt
+/Applied-Cloud-Computing/history.txt
+cd Applied-Cloud-Computing/
+ls
+history
+history -w history.txt
