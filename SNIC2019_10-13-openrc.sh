@@ -16,7 +16,7 @@ export OS_AUTH_URL=https://uppmax.cloud.snic.se:5000/v3
 # With the addition of Keystone we have standardized on the term **project**
 # as the entity that owns the resources.
 export OS_PROJECT_ID=cca46387b7934837a15f63ddcf89a995
-export OS_PROJECT_NAME="SNIC 2019/10-13"
+export OS_PROJECT_NAME="SNIC 2019/10-32"
 export OS_USER_DOMAIN_NAME="snic"
 if [ -z "$OS_USER_DOMAIN_NAME" ]; then unset OS_USER_DOMAIN_NAME; fi
 
