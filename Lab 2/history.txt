@@ -158,7 +158,7 @@ add-apt-repository cloud-archive:queens
 apt install software-properties-common
 add-apt-repository cloud-archive:pike
 apt update && apt dist-upgrade
-apt install python-openstackclient
+apt install python-openstackclientcd ..
 ls
 git clone https://github.com/yuvaranimasarapu/Applied-Cloud-Computing.git
 git pull
