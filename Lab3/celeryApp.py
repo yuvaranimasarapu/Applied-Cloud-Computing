@@ -1,4 +1,5 @@
 from celery import Celery
+import json
 
 app = Celery('celeryApp', backend='rpc://', broker='pyamqp://guest@localhost//')
 
