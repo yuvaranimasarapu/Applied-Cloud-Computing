@@ -1,8 +1,6 @@
 from celery import Celery
 
-app = Celery('celeryApp',
-             backend='rpc://',
-             broker='pyamqp://guest@localhost//')
+app = Celery('celeryApp', backend='rpc://', broker='pyamqp://guest@localhost//')
 
 @app.task
 def count_pronouns(tweets_file, word_list):
