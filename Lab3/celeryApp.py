@@ -7,7 +7,8 @@ app = Celery('celeryApp', backend='rpc://', broker='amqp://guest@localhost//')
 @app.task
 def count_pronouns(tweets_file, word_list):
 	with open(tweets_file,'r') as my_file:
-		total_lines = (line for line in my_file if line)
+		total_lines = (line.rstrip() for line in my_file) # All lines read
+		total_lines = (line for line in total_lines if line) #Non blank lines that have tweets
 		for line in total_lines:
 			try:
 				each_line = json.loads(line)
