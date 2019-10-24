@@ -5,7 +5,7 @@ from functools import reduce
 
 app = Flask(__name__)
 
-word_list = {'HAN':0 , 'HON':0 , 'DEN':0 , 'DET':0 , 'DENNA':0 , 'DENNE':0 , 'HEN':0, 'ALL_PRONOUNS':0}
+word_list = {'HAN':0 , 'HON':0 , 'DEN':0 , 'DET':0 , 'DENNA':0 , 'DENNE':0 , 'HEN':0, 'TOTAL_UNIQUE_TWEETS':0}
 
 @app.route('/pronounsCount/', methods =['GET'])
 def get_wordList():
