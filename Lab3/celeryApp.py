@@ -10,13 +10,13 @@ def count_pronouns(tweets_file, word_list):
 		total_lines = (line for line in my_file if line)
 		for line in total_lines:
 			try:
-			each_line = json.loads(line)
-			if not each_line['retweeted']: 
+				each_line = json.loads(line)
+				if not each_line['retweeted']: 
 				#check that tweet is not a retweet
-				word_list['ALL_PRONOUNS'] +=1
-				tweet_content = each_line['text'].upper()
-				for eachPronoun in word_list.keys():
-					word_list[eachPronoun] += tweet_content.count(eachPronoun)
+					word_list['ALL_PRONOUNS'] +=1
+					tweet_content = each_line['text'].upper()
+					for eachPronoun in word_list.keys():
+						word_list[eachPronoun] += tweet_content.count(eachPronoun)
 			except:
 				continue
 		time.sleep(1) #to make asynchronous calls of celery workers to be synchronous
