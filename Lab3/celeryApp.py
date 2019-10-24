@@ -8,7 +8,6 @@ def count_pronouns(tweets_file, word_list):
 	with open(tweets_file,'r') as my_file:
 		total_lines = my_file.readlines()
 		for line in total_lines:
-			try:
 				total_lines = total_lines.rstrip() 
 				#removing blank lines between consecutive tweets in our file
 				each_line = json.loads(line)
@@ -16,8 +15,6 @@ def count_pronouns(tweets_file, word_list):
 				#check that tweet is not a retweet
 					word_list['total'] +=1
 					tweet_content = each_line['text'].upper()
-					for pronoun in word_list.keys():
-						word_list[pronoun] += tweet_content.count(pronoun)
-			except:
-				continue
+					for eachPronoun in word_list.keys():
+						word_list[eachPronoun] += tweet_content.count(eachPronoun)
 		return word_list
