@@ -11,9 +11,9 @@ word_list = {'HAN':0 , 'HON':0 , 'DEN':0 , 'DET':0 , 'DENNA':0 , 'DENNE':0 , 'HE
 @app.route ('/pronounsCount/', methods =['GET'])
 def get_wordList():
 	temp = []
-	for every_file in os.listdir('/home/ubuntu/data/'):
-		temp.append(count_pronouns(('/home/ubuntu/data/' + every_file), word_list))
-	time.sleep(10)
+	for every_file in os.listdir('data'):
+		temp.append(count_pronouns(('/home/ubuntu/Applied-Cloud-Computing/Lab3/data/' + every_file), word_list))
+	#time.sleep(10)
 	return jsonify(appendWords(temp))
 
 def appendWords(temp):
