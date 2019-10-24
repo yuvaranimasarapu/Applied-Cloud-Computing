@@ -12,7 +12,7 @@ def count_pronouns(tweets_file, word_list):
 		for each_line in total_lines:
 			#try:
 			#each_line = json.loads(line)
-			if not each_lineline['retweeted']: 
+			if not each_line['retweeted']: 
 				#check that tweet is not a retweet
 				word_list['ALL_PRONOUNS'] +=1
 				tweet_content = each_line['text'].upper()
